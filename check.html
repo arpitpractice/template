@@ -38,10 +38,10 @@
     </head>
     <body>
         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
-            <header class="mdl-layout__header tp-back-white">
+            <header class="mdl-layout__header tp-back-white tp-header">
                 <div class="mdl-layout__header-row">
                     <!-- Title -->
-                    <span class="mdl-layout-title"><!--Logo img goes here--></span>
+                    <span class="mdl-layout-title"><img src="https://tutorialspoint.com/apex/images/logo.png" class="tp-img tp-img-responsive tp-main-logo-image"></span>
                     <!-- Add spacer, to align navigation to the right -->
                     <div class="mdl-layout-spacer"></div>
                     <!-- Navigation -->
@@ -50,7 +50,7 @@
             </header>
             <div class="mdl-layout__drawer mdl-layout--fixed-drawer tp-nav-drawer tp-pos-fixed">
                 <header class="">
-                    <img src="https://www.tutorialspoint.com/apex/images/apex-mini-logo.jpg" class="">
+                    <img src="https://www.tutorialspoint.com/apex/images/apex-mini-logo.jpg" class="tp-img tp-img-responsive">
                 </header>
                 <nav class="mdl-navigation">
                     <span class="tp-nav-head-tag tp-color-white" href="">Apex Programming Tutorial</span>
@@ -171,12 +171,20 @@
             </div>
 
             <div class="mdl-layout__drawer-right">
-                <span class="mdl-layout-title"></span>
+                <div class="mdl-layout__drawer">
+                    <span class="mdl-layout-title">Title</span>
+                    <nav class="mdl-navigation">
+                        <a class="mdl-navigation__link" href="">Link</a>
+                        <a class="mdl-navigation__link" href="">Link</a>
+                        <a class="mdl-navigation__link" href="">Link</a>
+                        <a class="mdl-navigation__link" href="">Link</a>
+                    </nav>
+                </div>
             </div>
 
             <div class="mdl-layout__obfuscator-right"></div>
             <div class="page-content tp-content-adjust">
-                <div class="page-content tp-middle-warpper">
+                <div class="page-content tp-middle-warpper mdl-grid">
                     <!-- alL content part goes here includes padding-->
                     <div class="mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--12-col-phone mdl-cell--8-col tp-middle-warpper">
                         <p class="tp-header-text">Apex - Environment</p>

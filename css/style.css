@@ -439,12 +439,7 @@ height:90px;
 .tp-back-white{
     background-color:#fff;
 }
-.tp-img-mobile-logo{
-    height: 91px;
-    margin-left: 61%;
-    position: relative;
-    top: 12px;
-}
+
 /*End of custom bar*/
 
 /*overrided css*/
@@ -532,22 +527,31 @@ height:90px;
     line-height: 56px;
     padding-left: 16px;
 }
+/*End of the css for the Media Queries*/
 
+.tp-margin-top-6{
+    margin-top:6%;
+}
+#notif{
+    top:0px;
+}
+.tp-main-logo-image{
+    position: relative;
+    top:12px;
+}
 @media all and (min-width: 850px){
     #notif{
         display:none;
     }
 }
 @media all and (max-width: 850px){
-    .tp-img-mobile-logo{
-        height:61px;
-        width:220px;
-        object-fit: cover;
+    .tp-main-logo-image{
+        width: 222px;
+        height: 65px;
         position: relative;
-        top:5px;
-        left:5px;
-        margin-left:0;
-    }  
+        top: 3px;
+        left: 32px;
+    } 
     .tp-content-adjust{
         margin-left:0 !important;
     }
@@ -567,14 +571,6 @@ height:90px;
     }
 }
 @media screen and (max-width: 1024px)
-.mdl-layout__header {
-    display: block !important;
-}
-/*End of the css for the Media Queries*/
-
-.tp-margin-top-6{
-    margin-top:6%;
-}
-#notif{
-    top:0px;
+    .mdl-layout__header {
+        display: block !important;
 }
