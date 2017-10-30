@@ -263,7 +263,7 @@ body,html{
     padding:2px;
 }
 .tp-middle-warpper{
-    padding:1em;
+    padding:0.5em;
 }
 .tp-icon-adjust-left{
     position: relative;
@@ -357,7 +357,7 @@ body,html{
 }
 .tp-nav-drawer ul  li{
     list-style-type: none; background:url(https://tutorialspoint.com/images/icon-bullet.png) no-repeat 0 4px;
-     border-bottom: 1px dotted #bbb;
+    border-bottom: 1px dotted #bbb;
     background-position: 8px 
 }
 .tp-nav-drawer ul  li > a{
@@ -424,34 +424,30 @@ body,html{
     background: #eee; 
 }
 .tp-content-adjust{
-    margin-left:19% !important;
+    margin-left:20% !important;
 }
 .tp-header{
     width:100%;
-    height:75px;
-    
+    height:90px;
+
 }
 .tp-back-white{
     background-color:#fff;
+}
+.tp-img-mobile-logo{
+    height: 91px;
+    margin-left: 61%;
+    position: relative;
+    top: 12px;
 }
 /*End of custom bar*/
 
 /*overrided css*/
 
 /*end of framework css */
-@media all and (max-width : 350px){
-    .tp-very-small-device{
-        display: none;
-    } 
-}
-@media all and (max-width:850px){
-    .tp-content-adjust{
-        margin-left:0 !important;
-    }
-}
 /*custom class for future use*/
 .demo-content{
-    max-width:1500px !important;
+    max-width:3000px !important;
 }
 /*end of custom class for future css */
 
@@ -469,7 +465,7 @@ body,html{
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
-    width: 260px;
+    width: 240px;
     height: 100%;
     max-height: 100%;
     position: absolute;
@@ -532,4 +528,47 @@ body,html{
     padding-left: 16px;
 }
 
-/*End of the css for the right nav drawer*/
+@media all and (min-width: 850px){
+    #notif{
+        display:none;
+        top:4px;
+    }
+
+}
+
+@media all and (max-width: 850px){
+    .tp-img-mobile-logo{
+        height:61px;
+        width:220px;
+        object-fit: cover;
+        position: relative;
+        top:5px;
+        left:5px;
+        margin-left:0;
+    }  
+    .tp-content-adjust{
+        margin-left:0 !important;
+    }
+    .tp-header{
+        height: 65px;
+    }
+}
+
+@media all and (max-width : 350px){
+    .tp-very-small-device{
+        display: none;
+    } 
+}
+
+@media screen and (min-width: 1025px){
+    .mdl-layout--fixed-drawer>.mdl-layout__drawer {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+/*End of the css for the Media Queries*/
+
+.tp-margin-top-6{
+    margin-top:6%;
+}
