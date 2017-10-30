@@ -37,40 +37,303 @@
         <!-- End of all the script -->
     </head>
     <body>
-        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-            <header class="mdl-layout__header tp-header tp-back-white">
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
+            <header class="mdl-layout__header tp-back-white">
                 <div class="mdl-layout__header-row">
                     <!-- Title -->
-                    <span class="mdl-layout-title"><img src="https://www.tutorialspoint.com/apex/images/logo.png" alt="Tutorialspoint" class="tp-img tp-img-responsive tp-img-mobile-logo"/></span>
+                    <span class="mdl-layout-title"><!--Logo img goes here--></span>
                     <!-- Add spacer, to align navigation to the right -->
                     <div class="mdl-layout-spacer"></div>
                     <!-- Navigation -->
                     <div class="material-icons mdl-badge" id="notif">playlist_add</div>
                 </div>
             </header>
-            <div class="mdl-layout__drawer-right">
-                
-            </div>
-            <div class="mdl-layout__obfuscator-right"></div>
-        </div>
-        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
-            <div class="demo-drawer mdl-layout__drawer tp-nav-drawer">
+            <div class="mdl-layout__drawer mdl-layout--fixed-drawer tp-nav-drawer tp-pos-fixed">
                 <header class="">
-                    
+                    <img src="https://www.tutorialspoint.com/apex/images/apex-mini-logo.jpg" class="">
                 </header>
-                <nav class="mdl-navigation tp-middle-wrapper">
-                    
+                <nav class="mdl-navigation">
+                    <span class="tp-nav-head-tag tp-color-white" href="">Apex Programming Tutorial</span>
+                    <ul class="tp-side-nav">
+                        <li class="">
+                            <a class="" href="">Apex - Home</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Overview</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Environment</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Example</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Data Types</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Variable</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Strings</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Arrays</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Constants</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Decision Making</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Loops</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Collections</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Classes</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Objects</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - DML</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Database Methods</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - SOSL</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - SOQL</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Security</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Invoking</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Triggers</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Trigger Design Pattern</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Batch Processing</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Debugging</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Testing</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Deployment</a>
+                        </li>
+                    </ul>
+                    <span class="tp-nav-head-tag tp-color-white" href="">Apex Useful Resources</span>
+                    <ul class="tp-side-nav">
+                        <li class="">
+                            <a class="" href="">Apex - Quick Guide</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Resources</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Apex - Discussions</a>
+                        </li>
+                    </ul>
+                    <span class="tp-nav-head-simple tp-color-white" href="">Selected Reading</span>
+                    <ul class="tp-side-nav">
+                        <li class="">
+                            <a class="" href="">Developer's Best Practice</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Questions And Answers</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Effective Resume Writing</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">HR Interview Question</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Computer Glossary</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="">Who is Who</a>
+                        </li>
+                    </ul>
                 </nav>
             </div>
-            <main class="mdl-layout__content mdl-color--grey-100 tp-content-adjust tp-margin-top-6">
-                <div class="mdl-grid demo-content">
-                   <div class="mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--12-col-phone mdl-cell--8-col tp-middle-warpper">
-                       
+
+            <div class="mdl-layout__drawer-right">
+                <span class="mdl-layout-title"></span>
+            </div>
+
+            <div class="mdl-layout__obfuscator-right"></div>
+            <div class="page-content tp-content-adjust">
+                <div class="page-content tp-middle-warpper">
+                    <!-- alL content part goes here includes padding-->
+                    <div class="mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--12-col-phone mdl-cell--8-col tp-middle-warpper">
+                        <p class="tp-header-text">Apex - Environment</p>
+                        <div class="topgooglead">
+                            <hr />
+                            <div class="tp-text-center">Advertisements</div>
+                            <div class="tp-width-100 tp-text-center">
+                                <script type="text/javascript"><!--
+                                        google_ad_client = "pub-7133395778201029";
+                                    google_ad_width = 468;
+                                    google_ad_height = 60;
+                                    google_ad_format = "468x60_as";
+                                    google_ad_type = "image";
+                                    google_ad_channel = "";
+                                    //--></script>
+                                <script type="text/javascript"
+                                        src="https://pagead2.googlesyndication.com/pagead/show_ads.js"> 
+                                </script>
+
+                            </div>
+                        </div>
+                        <div class="tp-pre-next-container">
+                            <a  href="https://tutorialspoint.com/apex/apex_overview.htm" class="mdl-button mdl-js-button mdl-js-ripple-effect tp-pull-left"><i class="material-icons tp-icon-adjust-left">arrow_back</i><span class="tp-very-small-device">Previous Page</span></a>
+
+                            <a href="https://tutorialspoint.com/apex/apex_example.htm" class="mdl-button mdl-js-button mdl-js-ripple-effect tp-pull-right"><span class="tp-very-small-device">Next Page</span><i class="material-icons tp-icon-adjust-right">arrow_forward</i></a>
+                            <div class="tp-clearfix"></div>
+                        </div>
+                        <div class="tp-content tp-justify">
+                            <p class="tp-margin-top-1p">In this chapter, we will understand the environment for our Salesforce Apex development. It is assumed that you already have a Salesforce edition set up for doing Apex development.</p>
+                            <p>You can develop the Apex code in either Sandbox or Developer edition of Salesforce. A Sandbox organization is a copy of your organization in which you can write code and test it without taking the risk of data modification or disturbing the normal functionality. As per the standard industrial practice, you have to develop the code in Sandbox and then deploy it to the Production environment.</p>
+                            <p>For this tutorial, we will be using the Developer edition of Salesforce. In the Developer edition, you will not have the option of creating a Sandbox organization. The Sandbox features are available in other editions of Salesforce.</p>
+
+                            <img src="https://tutorialspoint.com/apex/images/deployment_process.jpg" alt="Deployment Process" class="tp-img-responsive tp-img"/>
+
+                            <h3>Apex Code Development Tools</h3>
+
+                            <p>In all the editions, we can use any of the following three tools to develop the code &minus;</p>
+                            <ul class="list">
+                                <li>Force.com Developer Console</li>
+                                <li>Force.com IDE</li>
+                                <li>Code Editor in the Salesforce User Interface</li>
+                            </ul>
+                            <p><b>Note &minus;</b> We will be utilizing the Developer Console throughout our tutorial for code execution as it is simple and user friendly for learning.</p>
+                            <h3>Force.com Developer Console</h3>
+                            <p>The Developer Console is an integrated development environment with a collection of tools you can use to create, debug, and test applications in your Salesforce organization.</p>
+                            <p>Follow these steps to open the Developer Console &minus;</p>
+                            <p class="tp-steps"><b>Step 1 &minus;</b> Go to Name&rarr;Developer Console</p>
+                            <img src="https://tutorialspoint.com/apex/images/opening_developer_console_step_1.jpg" alt="Opening Developer Console Step1"  class="tp-img tp-img-responsive"/>
+                            <p class="tp-steps"><b>Step 2 &minus;</b> Click on "Developer Console" and a window will appear as in the following screenshot.</p>
+                            <img src="https://tutorialspoint.com/apex/images/opening_developer_console_step_2.jpg" alt="Opening Developer Console Step_2" class="tp-img tp-img-responsive" class="tp-img tp-img-responsive" />
+                            <p class="tp-steps">Following are a few operations that can be performed using the Developer Console.</p>
+                            <ul class="list">
+                                <li><p><b>Writing and compiling code &minus;</b> You can write the code using the source code editor. When you save a trigger or class, the code is automatically compiled. Any compilation errors will be reported.</p></li>
+                                <li><p><b>Debugging &minus;</b> You can write the code using the source code editor. When you save a trigger or class, the code is automatically compiled. Any compilation errors will be reported.</p></li>
+                                <li><p><b>Testing &minus;</b> You can view debug logs and set checkpoints that aid in debugging.</p></li>
+                                <li><p><b>Checking performance &minus;</b> You can execute tests of specific test classes or all classes in your organization, and you can view test results. Also, you can inspect code coverage.</p></li>
+                                <li><p><b>SQL queries &minus;</b> You can inspect debug logs to locate performance bottlenecks. </p></li>
+                                <li><p><b>Color coding and autocomplete &minus;</b> The source code editor uses a color scheme for easier readability of code elements and provides auto completion for class and method names.</p></li>
+                            </ul>
+                            <p class="tp-sub-header">Executing Code in Developer Console</p>
+                            <p>All the code snippets mentioned in this tutorial need to be executed in the developer console. Follow these steps to execute steps in Developer Console.</p>
+                            <p><b>Step 1</b> &minus; Login to the Salesforce.com using <b>login.salesforce.com</b>. Copy the code snippets mentioned in the tutorial. For now, we will use the following sample code &minus;</p>
+                            <pre class="prettyprint notranslate tp-pre">String myString = 'MyString';<br />System.debug('Value of String Variable'+myString);</pre>
+                            <img src="https://tutorialspoint.com/apex/images/login_screen.jpg" alt="Login Screen" class="tp-img tp-img-responsive" />
+                            <p class="tp-steps"><b>Step 2</b> &minus; To open the Developer Console, click on Name &rarr; Developer Console and then click on Execute Anonymous as shown below.</p>
+                            <img src="https://tutorialspoint.com/apex/images/executing_code_in_developer_console_Step_1.jpg" alt="Executing Code in Developer Console Step1" class="tp-img tp-img-responsive" />
+                            <p></p>
+                            <img src="https://tutorialspoint.com/apex/images/executing_code_in_developer_console_step_2.jpg" alt="Executing Code in Developer Console step2" class="tp-img tp-img-responsive"/>
+                            <p class="tp-steps"><b>Step 3</b> &minus; In this step, a window will appear and you can paste the code there.</p>
+                            <img src="https://www.tutorialspoint.com/apex/images/executing_code_in_developer_console_step_3.jpg" alt="Executing Code in Developer Console step3" class="tp-img tp-img-responsive"/>
+                            <p class="tp-steps"><b>Step 4</b> &minus; When we click on <b>Execute</b>, the debug logs will open. Once the log appears in window as shown below, then click on the log record &minus;</p>
+                            <img src="https://tutorialspoint.com/apex/images/log_record.jpg" alt="Log Record" class="tp-img tp-img-responsive" />
+                            <p class="tp-steps">Then type 'USER' in the window as shown below and the output statement will appear in the debug window. This 'USER' statement is used for filtering the output.</p>
+                            <img src="https://tutorialspoint.com/apex/images/executing_code_in_developer_console_step_4.jpg" alt="Executing Code in Developer Console Step4" class="tp-img tp-img-responsive"/>
+                            <p>So basically, you will be following all the above mentioned steps to execute any code
+                                snippet in this tutorial.</p>
+
+                            <div class="tp-pre-next-container">
+
+                                <a  href="https://tutorialspoint.com/apex/apex_overview.htm" class="mdl-button mdl-js-button mdl-js-ripple-effect tp-pull-left"><i class="material-icons tp-icon-adjust-left">arrow_back</i><span class="tp-very-small-device">Previous Page</span></a>
+
+                                <a href="https://tutorialspoint.com/apex/apex_example.htm" class="mdl-button mdl-js-button mdl-js-ripple-effect tp-pull-right"><span class="tp-very-small-device">Next Page</span><i class="material-icons tp-icon-adjust-right">arrow_forward</i></a>
+
+                                <a  href="https://tutorialspoint.com/apex/apex_overview.htm" class="mdl-button mdl-js-button mdl-js-ripple-effect tp-floated-center"><i class="material-icons tp-icon-adjust-left">print</i><span class="tp-very-small-device">Print</span></a>
+                                <div class="tp-clearfix"></div>
+                            </div>
+                        </div><!--End of the tp content-->
+                    </div><!--End of this grid-->
+                    <div class="demo-cards mdl-cell mdl-cell--4-col mdl-grid mdl-grid--no-spacing">
+                        <div class="mdl-card">
+                            <div class="simple-ad">
+                                <a href="javascript:void(0)" onclick="var sTop = window.screen.height/2-(218); var sLeft = window.screen.width/2-(313);window.open('https://www.facebook.com/sharer.php?u=' + 'http://www.tutorialspoint.com/apex/apex_environment.htm','sharer','toolbar=0,status=0,width=626,height=456,top='+sTop+',left='+sLeft);return false;">
+                                    <img src="https://tutorialspoint.com/images/facebookIcon.jpg" alt="img" />
+                                </a>
+                                <a  href="javascript:void(0)" onclick="var sTop = window.screen.height/2-(218); var sLeft = window.screen.width/2-(313);window.open('https://twitter.com/share?url=' + 'http://www.tutorialspoint.com/apex/apex_environment.htm','sharer','toolbar=0,status=0,width=626,height=456,top='+sTop+',left='+sLeft);return false;">
+                                    <img src="https://tutorialspoint.com/images/twitterIcon.jpg" alt="img" />
+                                </a>
+                                <a  href="javascript:void(0)" onclick="var sTop = window.screen.height/2-(218); var sLeft = window.screen.width/2-(313);window.open('https://www.linkedin.com/cws/share?url=' + 'http://www.tutorialspoint.com/apex/apex_environment.htm&amp;title='+ document.title,'sharer','toolbar=0,status=0,width=626,height=456,top='+sTop+',left='+sLeft);return false;">
+                                    <img src="https://tutorialspoint.com/images/linkedinIcon.jpg" alt="img" />
+                                </a>
+                                <a  href="javascript:void(0)" onclick="var sTop = window.screen.height/2-(218); var sLeft = window.screen.width/2-(313);window.open('https://plus.google.com/share?url=http://www.tutorialspoint.com/apex/apex_environment.htm','sharer','toolbar=0,status=0,width=626,height=456,top='+sTop+',left='+sLeft);return false;">
+                                    <img src="https://tutorialspoint.com/images/googlePlusIcon.jpg" alt="img" />
+                                </a>
+                                <a  href="javascript:void(0)" onclick="var sTop = window.screen.height/2-(218); var sLeft = window.screen.width/2-(313);window.open('https://www.stumbleupon.com/submit?url=http://www.tutorialspoint.com/apex/apex_environment.htm&amp;title='+ document.title,'sharer','toolbar=0,status=0,width=626,height=456,top='+sTop+',left='+sLeft);return false;">
+                                    <img src="https://tutorialspoint.com/images/StumbleUponIcon.jpg" alt="img" />
+                                </a>
+                                <a  href="javascript:void(0)" onclick="var sTop = window.screen.height/2-(218); var sLeft = window.screen.width/2-(313);window.open('https://reddit.com/submit?url=http://www.tutorialspoint.com/apex/apex_environment.htm&amp;title='+ document.title,'sharer','toolbar=0,status=0,width=626,height=656,top='+sTop+',left='+sLeft);return false;">
+                                    <img src="https://tutorialspoint.com/images/reddit.jpg" alt="img" />
+                                </a>
+                            </div>
+                            <div id="tp-all-height">
+                                <div class="rightgooglead tp-margin-top-1p">
+                                    <script type="text/javascript"><!--
+                                            google_ad_client = "pub-7133395778201029";
+                                        google_ad_width = 300;
+                                        google_ad_height = 250;
+                                        google_ad_format = "300x250_as";
+                                        google_ad_type = "image";
+                                        google_ad_channel ="";
+                                        //--></script>
+                                    <script type="text/javascript"
+                                            src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+                                    </script>
+                                </div>
+                                <div class="rightgooglead">
+                                    <script type="text/javascript"><!--
+                                            google_ad_client = "pub-7133395778201029";
+                                        google_ad_width = 300;
+                                        google_ad_height = 600;
+                                        google_ad_format = "300x600_as";
+                                        google_ad_type = "image";
+                                        google_ad_channel ="";
+                                        //--></script>
+                                    <script type="text/javascript"
+                                            src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+                                    </script>
+                                </div>
+                                <div class="rightgooglead">
+                                    <script type="text/javascript"><!--
+                                            google_ad_client = "ca-pub-2537027957187252";
+                                        /* Right Side Ad */
+                                        google_ad_slot = "right_side_ad";
+                                        google_ad_width = 300;
+                                        google_ad_height = 250;
+                                        //-->
+                                    </script>
+                                    <script type="text/javascript"
+                                            src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+                                    </script>
+                                </div>
+                            </div><!--End of all element height-->
+
+                        </div>
                     </div>
                 </div>
-            </main>
+            </div>
         </div>
-        
         <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
         <script>
             $('#notif').click(function(){
@@ -81,7 +344,6 @@
                     $('.mdl-layout__drawer-right').addClass('active'); 
                 }
             });
-
             $('.mdl-layout__obfuscator-right').click(function(){
                 if($('.mdl-layout__drawer-right').hasClass('active')){       
                     $('.mdl-layout__drawer-right').removeClass('active'); 

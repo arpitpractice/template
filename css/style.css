@@ -406,9 +406,14 @@ body,html{
     -webkit-border-radius: 0px;
     border-radius: 0px;
 }
-.mdl-layout__header{
-    height:90px;
+.tp-pos-fixed{
+    position: fixed;
 }
+/*
+.mdl-layout__header{
+height:90px;
+}
+*/
 .logo-img{
     position: relative;
     top:12px;
@@ -532,9 +537,7 @@ body,html{
     #notif{
         display:none;
     }
-
 }
-
 @media all and (max-width: 850px){
     .tp-img-mobile-logo{
         height:61px;
@@ -552,25 +555,26 @@ body,html{
         height: 65px;
     }
 }
-
 @media all and (max-width : 350px){
     .tp-very-small-device{
         display: none;
     } 
 }
-
 @media screen and (min-width: 1025px){
     .mdl-layout--fixed-drawer>.mdl-layout__drawer {
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
 }
-
+@media screen and (max-width: 1024px)
+.mdl-layout__header {
+    display: block !important;
+}
 /*End of the css for the Media Queries*/
 
 .tp-margin-top-6{
     margin-top:6%;
 }
 #notif{
-    top:5px;
+    top:0px;
 }
