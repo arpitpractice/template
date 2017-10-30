@@ -531,7 +531,6 @@ body,html{
 @media all and (min-width: 850px){
     #notif{
         display:none;
-        top:4px;
     }
 
 }
@@ -571,4 +570,7 @@ body,html{
 
 .tp-margin-top-6{
     margin-top:6%;
+}
+#notif{
+    top:5px;
 }
