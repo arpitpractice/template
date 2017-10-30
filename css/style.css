@@ -407,7 +407,7 @@ body,html{
     border-radius: 0px;
 }
 .tp-pos-fixed{
-    position: fixed;
+    position: fixed !important;
 }
 /*
 .mdl-layout__header{
