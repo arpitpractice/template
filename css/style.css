@@ -356,18 +356,20 @@ body,html{
     transform: translateX(-265px);
 }
 .tp-nav-drawer ul  li{
-    list-style-type: none; background:url(https://tutorialspoint.com/images/icon-bullet.png) no-repeat 0 4px;
     border-bottom: 1px dotted #bbb;
-    background-position: 8px 
 }
 .tp-nav-drawer ul  li > a{
+    list-style-type: none; background:url(https://tutorialspoint.com/images/icon-bullet.png) no-repeat 0 4px;
     list-style-type:none;
-    background-position: 8px 10px;
+    background-position: 9px;
     display: block;
     width:100%;
     padding-top:8px;
     padding-bottom:8px;
-    margin-left:25px;
+}
+.tp-nav-drawer ul  li a span{
+    position: relative;
+    left:35px;
 }
 .tp-nav-drawer ul  li:hover {
     background-color: #D9D7D3;
@@ -389,7 +391,12 @@ body,html{
 .tp-color-white{
     color:white;
 }
-
+#tp-logo{
+    width:100%;
+    height:100%;
+    position: relative;
+    top:16px;
+}
 .tp-margin-top-1p{
     margin-top:1%;
 }
@@ -433,7 +440,7 @@ height:90px;
 }
 .tp-header{
     width:100%;
-    height:90px;
+    height:96px;
 
 }
 .tp-back-white{
@@ -533,7 +540,7 @@ height:90px;
     margin-top:6%;
 }
 #notif{
-    top:0px;
+    top:3.5px;
 }
 .tp-main-logo-image{
     position: relative;
@@ -592,7 +599,17 @@ height:90px;
 @media all and (max-width : 850px){
     #tp-ads-section{
         margin:0 auto;
-    } 
+    }
+    #tp-logo{
+        width:200px;
+        height:60px;
+        position: relative;
+        top:4px;
+    }
+    #tp-social-icons-mobile{
+        text-align: center;
+        width:100%;
+    }
 }
 /*Right Nav Design*/
 .mdl-layout__drawer-right{
@@ -678,7 +695,7 @@ height:90px;
 }
 .tp-inline-block li{
     display:inline-block;
-    
+
 }
 
 .mdl-textfield__input{
@@ -686,4 +703,12 @@ height:90px;
 }
 .tp-social-icon li{
     margin-left:10.5%;   
+}
+.tp-margin-left-10{
+    margin-left:10px;
+}
+@media all and (max-width : 850px){
+    .mdl-layout--large-screen-only{
+        display: none;
+    }
 }
