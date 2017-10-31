@@ -41,7 +41,7 @@
             <header class="mdl-layout__header tp-back-white tp-header">
                 <div class="mdl-layout__header-row">
                     <!-- Title -->
-                    <span class="mdl-layout-title"><img src="https://tutorialspoint.com/apex/images/logo.png" class="tp-img tp-img-responsive tp-main-logo-image"></span>
+                    <span class="mdl-layout-title"></span>
                     <!-- Add spacer, to align navigation to the right -->
                     <div class="mdl-layout-spacer"></div>
                     <!-- Navigation -->
@@ -170,7 +170,16 @@
                 </nav>
             </div>
 
-            <div class="tp-pos-fixed mdl-layout__drawer-right mdl-layout--fixed-drawer tp-nav-drawer">
+            <div class="tp-pos-fixed mdl-layout__drawer-right mdl-layout--fixed-drawer">
+                <div class="tp-right-side-nav-section">
+                    <ul class="tp-right-nav">
+                        <li><i class="material-icons">home</i><a href="">Home</a></li>
+                        <li><i class="material-icons">library_books</i><a href="">Tutorials library</a></li>
+                        <li><i class="material-icons">code</i><a href="">Coding Ground</a></li>
+                        <li><i class="material-icons">people</i><a href="">Tutor Connect</a></li>
+                        <li><i class="material-icons">play_arrow</i><a href="">Videos</a></li>
+                    </ul>
+                </div>
                 <div class="mdl-layout__drawer">
                     <span class="mdl-layout-title">Title</span>
                     <nav class="mdl-navigation">
@@ -273,7 +282,7 @@
                             </div>
                         </div><!--End of the tp content-->
                     </div><!--End of this grid-->
-                    <div class="demo-cards mdl-cell mdl-cell--4-col mdl-grid mdl-grid--no-spacing">
+                    <div class="demo-cards mdl-cell mdl-cell--4-col mdl-grid mdl-grid--no-spacing" id="tp-ads-section">
                         <div class="mdl-card">
                             <div class="simple-ad">
                                 <a href="javascript:void(0)" onclick="var sTop = window.screen.height/2-(218); var sLeft = window.screen.width/2-(313);window.open('https://www.facebook.com/sharer.php?u=' + 'http://www.tutorialspoint.com/apex/apex_environment.htm','sharer','toolbar=0,status=0,width=626,height=456,top='+sTop+',left='+sLeft);return false;">
